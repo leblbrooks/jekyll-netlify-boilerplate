@@ -1,7 +1,7 @@
 ---
 layout: transcript
 title: Transcripts
-permalink: /transcript
+permalink: /transcripts
 section: transcript
 intro_paragraph: >
   This is the Transcript index page, listing each post with an
