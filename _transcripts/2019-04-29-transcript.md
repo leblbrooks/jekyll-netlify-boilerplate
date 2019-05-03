@@ -1,10 +1,12 @@
 ---
-layout: transcript
-title: Test
+layout: transcript-post
+title: Test transcript
 author: Lindsay
 date: "2019-04-29 12:00:00"
 categories: misc
 ---
+
+test test test transcript
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

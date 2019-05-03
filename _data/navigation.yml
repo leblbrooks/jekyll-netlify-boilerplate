@@ -6,9 +6,9 @@
   url: /about
 - text: Products
   url: /products
-- text: Contact
-  url: /contact
 - text: Blog
   url: /blog
 - text: Transcripts
   url: /transcripts
+- text: Contact
+  url: /contact

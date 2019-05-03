@@ -2,34 +2,31 @@
 layout: default
 ---
 
-{% assign author = site.data.authors[page.author] %}
-
 <h2>{{ page.title }}</h2>
-
-<time datetime="{{ page.date }}">
-  <small>
-    <strong>{{ page.date | date_to_string }}</strong>
-    {% if author %} by {{ author.name }}
-    {% endif %}
-  </small>
-</time>
 
 {% include page-intro.html %}
 
 {{ content }}
 
-<nav aria-label="Adjacent Posts">
+<section>
+  <h3>Transcripts</h3>
+
   <ul>
-    {% if page.previous.url %}
+    {% for transcript in site.transcripts %} {% assign author =
+    site.data.authors[transcript.author] %}
     <li>
-      <a href="{{ page.previous.url }}" rel="prev"
-        >&laquo; {{ page.previous.title }}</a
-      >
+      <h4>
+        <a href="{{ transcript.url }}">{{ transcript.title }}</a>
+      </h4>
+      <time datetime="{{ transcript.date }}">
+        <small>
+          <strong>{{ transcript.date | date_to_string }}</strong>
+          {% if author %} by {{ author.name }}
+          {% endif %}
+        </small>
+      </time>
+      {{ transcript.excerpt | strip_newlines | truncate: 180 }}
     </li>
-    {% endif %} {% if page.next.url %}
-    <li>
-      <a href="{{ page.next.url }}" rel="next">{{ page.next.title }} &raquo;</a>
-    </li>
-    {% endif %}
+    {% endfor %}
   </ul>
-</nav>
+</section>
