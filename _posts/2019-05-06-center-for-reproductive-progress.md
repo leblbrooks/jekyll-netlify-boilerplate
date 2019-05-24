@@ -13,7 +13,7 @@ Human embryo genetic engineering is a complex and highly controversial technolog
 This is an organization that aims to add to the discussion by looking at all the arguements in a larger pro human context.
 The goal is to provide a source for real knowledge by evaluating all claims surrounding this technology, helping bring us closer to the truth.
 
-Because the ultimate goal is to be able to think clearly about this topic, understand the full context in order to aid us in making the best policy decsions regarding use of this technology for human flourishing, or for humans to live at their highest level or greatest potential.
+The ultimate goal is to be able to think clearly about this topic, understand the full context in order to aid us in making the best policy decsions regarding use of this technology for human flourishing, or for humans to live at their highest level or greatest potential.
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
