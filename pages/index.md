@@ -1,12 +1,10 @@
 ---
+
 layout: home
-title: Welcome
+title: What is more and what is less true
 permalink: /
 section: home
 intro_paragraph: >
-  [Jekyll Netlify Boilerplate](https://github.com/danurbanowicz/jekyll-netlify-boilerplate)
-  provides the basics to get a fast, static website deployed on Netlify.
-  Features [Netlify CMS](https://www.netlifycms.org), responsive
-  CSS Grid layout, sample
-  pages and posts, and a continuous deployment workflow.
+The natural state of human beings is to want to improve our lives. To do this we need to have the correct knowledge and apply it in specific ways. Where do gaps exist between what people believe to be true and what is actually true. I help bring people closer to the truth.
+
 ---
