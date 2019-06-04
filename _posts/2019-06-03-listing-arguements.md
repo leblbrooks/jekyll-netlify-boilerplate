@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Listing Arguments
+title: Some Arguments
 author: Lindsay
 date: "2019-06-03 12:00:00"
 categories: misc
