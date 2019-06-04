@@ -12,8 +12,7 @@ Arguments to categorize.
 
 Key People-
 
-Nita Farahany
-Lee M. Silver
+Nita Farahany, Lee M. Silver
 
 Nita Farahany-
 
